@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NetHealth</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">NetLogistik</string>
+    <string name="nav_header_subtitle">HealthCare</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Historial</string>
+    <string name="menu_slideshow">Registro</string>
+    <string name="menu_vacunacion">Vacunación</string>
+    <string name="menu_Control">Control</string>
+    <string name="menu_indicadores">Indicadores</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

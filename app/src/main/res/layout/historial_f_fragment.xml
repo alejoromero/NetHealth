@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/historial_f_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.historial.HistorialFFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="190dp"
+        android:layout_height="173dp"
+        android:src="@drawable/ic_menu_camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cargoprofesiont"
+        android:layout_width="234dp"
+        android:layout_height="47dp"
+        android:text="Desarrollador de Innovación"
+        android:textSize="9pt"
+        app:layout_constraintStart_toEndOf="@+id/nombre6"
+        app:layout_constraintTop_toTopOf="@+id/nombre6" />
+
+    <TextView
+        android:id="@+id/nombre6"
+        android:layout_width="168dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="Cargo/Profesión: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/antecedentest"
+        android:layout_width="155dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="Antecedentes: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nombre8"
+        android:layout_width="413dp"
+        android:layout_height="289dp"
+        android:layout_marginTop="8dp"
+        android:text="Ninguno: "
+        android:textSize="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/antecedentest"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/direcciont"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:text="Cra 3 sur # 7a 13 Apartamento 301"
+        android:textSize="9pt"
+        app:layout_constraintStart_toEndOf="@+id/nombre5"
+        app:layout_constraintTop_toTopOf="@+id/nombre5" />
+
+    <TextView
+        android:id="@+id/nombre5"
+        android:layout_width="110dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:text="Dirección: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nombre4"
+        android:layout_width="216dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:text="Lugar de Nacimiento: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lugarnacimeintot"
+        android:layout_width="207dp"
+        android:layout_height="35dp"
+        android:text="Facatativa"
+        android:textSize="9pt"
+        app:layout_constraintStart_toEndOf="@+id/nombre4"
+        app:layout_constraintTop_toTopOf="@+id/nombre4" />
+
+    <TextView
+        android:id="@+id/nombre3"
+        android:layout_width="219dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Fecha de Nacimiento: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/fechanacimientot"
+        android:layout_width="207dp"
+        android:layout_height="35dp"
+        android:text="20 Mayo 1993"
+        android:textSize="9pt"
+        app:layout_constraintStart_toEndOf="@+id/nombre3"
+        app:layout_constraintTop_toTopOf="@+id/nombre3" />
+
+    <TextView
+        android:id="@+id/nombre2"
+        android:layout_width="148dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Identificación: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/identificaciont"
+        android:layout_width="252dp"
+        android:layout_height="45dp"
+        android:text="1070967118"
+        android:textSize="9pt"
+        app:layout_constraintStart_toEndOf="@+id/nombre2"
+        app:layout_constraintTop_toTopOf="@+id/nombre2" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="110dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:text="Nombre: "
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nombret"
+        android:layout_width="249dp"
+        android:layout_height="51dp"
+        android:text="Cesar Alejandro Romero Romero Mendez"
+        android:textSize="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nombre"
+        app:layout_constraintTop_toTopOf="@+id/nombre" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

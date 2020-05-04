@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_deportes_y_competicion"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_internet"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_vacunacion"
+            android:icon="@drawable/ic_herramientas_y_utensilios"
+            android:title="@string/menu_vacunacion" />
+        <item
+            android:id="@+id/nav_control"
+            android:icon="@drawable/ic_asistencia_sanitaria_y_medica"
+            android:title="@string/menu_Control" />
+        <item
+            android:id="@+id/nav_indicadores"
+            android:icon="@drawable/ic_icon1"
+            android:title="@string/menu_indicadores" />
+    </group>
+</menu>
